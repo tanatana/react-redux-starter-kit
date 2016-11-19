@@ -12,6 +12,18 @@ export const Header = () => (
     <Link to='/counter' activeClassName='route--active'>
       Counter
     </Link>
+    {' · '}
+    <Link to='/auth' activeClassName='route--active'>
+      Auth
+    </Link>
+    {' · '}
+    <Link to='/vital/counter' activeClassName='route--active'>
+      Vital Counter
+    </Link>
+    {' · '}
+    <Link to='/vaital/no-exist' activeClassName='route--active'>
+      Vital 404
+    </Link>
   </div>
 )
 
