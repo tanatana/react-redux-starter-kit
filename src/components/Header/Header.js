@@ -21,8 +21,8 @@ export const Header = () => (
       Vital Counter
     </Link>
     {' · '}
-    <Link to='/vaital/no-exist' activeClassName='route--active'>
-      Vital 404
+    <Link to='/no-exist' activeClassName='route--active'>
+      404
     </Link>
   </div>
 )
